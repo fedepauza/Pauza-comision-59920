@@ -1,0 +1,1650 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* CSS Reset END */
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+/* font-family: "JetBrains Mono", monospace; */
+
+/* Fonts END */
+
+/* Header & NavBar */
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 122px;
+    background-color: #3C3D37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div img {
+    width: 300px;
+    height: 272px;
+    margin-left: 25px;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 55px;
+} 
+
+.header nav ul li a {
+    color: #C5C5C5;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .9375rem;
+}
+
+/* Header & NavBar END */
+
+/* Banner & Nosotros */
+
+body {
+    background-color: #A1A0A0;
+    width: 100%;
+}
+
+.banner {
+    background-image: url(../assets/img/Concesionario-Audi-en-Soria-Soria-Motor-Grupo-Madurga.jpg);
+    width: 100%;
+    height: 778px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.opaco {
+    background-color: rgba(0, 0, 0, 0.713) ;
+    width: 100%;
+    height: 778px;
+}
+
+main .banner .opaco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #C5C5C5;
+}
+
+.banner h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #C5C5C5;
+    
+}
+
+.banner p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    color: #C5C5C5;
+    margin-top: 50px;
+    width: 70.76%;
+}
+
+/* Banner & Nosotros END */
+
+/* Previsualizacion Autos */
+
+.TituloPagina {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: normal;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #A1A0A0;
+}
+
+.CajaPadre {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+
+.CajaHijo {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+.CajaHijo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.CajaHijo p {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.Descripcion {
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #e9e9e9;
+}
+
+.BotonConsulta {
+    position: absolute;
+    bottom: 20px;
+    width: 258px;
+    height: 37px;
+    background-color: #b13c3c97;
+    border-radius: 10px;
+    color: black;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.vermas button {
+    display: flex;
+    background-color: #A1A0A0;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.vermas a {
+    width: 122px;
+    height: 37px;
+    border-radius: 7px;
+    background-color:#7c7474;
+    color: #1E201E;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding-top: 6px
+}
+
+/* Previsualizacion Autos  END */
+
+/* NUestros Servicios */
+
+.NuestrosServicios {
+    width: 100%;
+    height: 249px;
+    background-color: #1E201E;
+}
+
+.NuestrosServicios h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.750rem;
+    font-weight: bold;
+    color: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.NuestrosServicios div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.button1 {
+    width: 344px;
+    height: 43px;
+    background-color: #AE0808;
+    border-radius: 10px;
+}
+
+.button2 {
+    width: 262px;
+    height: 43px;
+    background-color: #AE0808;
+    border-radius: 10px;
+}
+
+.button3 {
+    width: 395px;
+    height: 43px;
+    background-color: #AE0808;
+    border-radius: 10px;
+}
+
+.button4 {
+    width: 200px;
+    height: 43px;
+    background-color: #AE0808;
+    border-radius: 10px;
+}
+
+.BotonServicios {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #e9e9e9;
+}
+
+/* NUestros Servicios END */
+
+/* Footer Ubicacion y Contacto */
+
+.UbicacionCaja {
+    display: flex;
+    position: relative;
+}
+
+footer section {
+    width: 100%;
+    height: 450px;
+    /* background-color: #5E281A; */
+}
+
+section h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #e9e9e9;
+}
+
+.DondeEncontrarnos {
+    display: flex;
+    position: relative;
+}
+
+.DondeEncontrarnos h2 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 400px;
+
+}
+
+.DondeEncontrarnos p {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    width: 250px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: #e9e9e9;
+}
+
+.Contacto {
+    display: flex;
+    position: relative;
+}
+
+.ContactoPadre {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    margin-top: 50px;
+}
+
+.ContactoPadre p {
+    font-size: 1.25rem;
+}
+
+.Contacto h2 {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.UbicacionCaja .Horario {
+    position: absolute;
+    bottom: -120px;
+    left: 25px;
+}
+
+
+section div .contacto p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: #e9e9e9;
+}
+
+.LogoContacto {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+
+.LogoContacto p {
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+.Wpp {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.Gmail {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.Tiktok {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Insta {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.Facebook {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.ubicacion {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.ubicacion iframe {
+    border-radius: 20px;
+}
+
+/* Footer Ubicacion y Contacto END */
+
+/* Footer otras paginas */
+
+footer .footer {
+    width: 100%;
+    height: 65px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #e9e9e9;
+    margin-left: 30px;
+}
+
+/* Footer otras paginas END */
+
+/* Nuestras Unidades y Filtros */
+
+.conteiner2 {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.margin {
+    display: grid;
+    position: relative;
+    width: 1200px;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+    justify-items: center;
+}
+
+.Filtros {
+    display: flex;
+    position: absolute;
+    right: 1100px;
+    }
+
+.FiltroTit {
+    
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #0d0c0c;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.Filtros h3 {
+    position: relative;
+    top: 60px;
+    left: -100px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #0d0c0c;
+    margin-top: 10px;
+
+}
+
+.Filtros ul li {
+    position: relative;
+    top: 60px;
+    left: -95px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #0d0c0c;
+    margin-top: 2px;
+}
+
+.precio input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.input {
+    margin-top: 80px;
+    margin-left: -95px;
+    margin-bottom: -50px;
+}
+
+/* Nuestras Unidades y Filtros END */
+
+/* Oportunidades */
+
+.margin1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 1200px;
+    /* grid-template-columns: repeat(3,1fr); */
+    margin-left: 70px;
+    justify-items: center;
+}
+
+.conteiner3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.CajaPadre1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.Descripcion1 {
+    position: absolute;
+    bottom: 70px;
+    left: 450px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #e9e9e9;
+}
+
+.Filtros1 {
+    display: flex;
+    position: absolute;
+    }
+
+.FiltroTit1 {
+    
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #0d0c0c;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+.Filtros1 h3 {
+    position: relative;
+    top: 60px;
+    left: -150px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #0d0c0c;
+    margin-top: 10px;
+
+}
+
+.Filtros1 ul li {
+    position: relative;
+    top: 60px;
+    left: -145px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #0d0c0c;
+    margin-top: 2px;
+}
+
+.precio1 input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.input1 {
+    margin-top: 80px;
+    margin-left: -145px;
+    margin-bottom: -50px;
+}
+
+footer .footer1 {
+    width: 100%;
+    height: 65px;
+    margin-top: 370px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer1 h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #e9e9e9;
+    margin-left: 30px;
+}
+
+/* Oportunidades END */
+
+/* Seguros */
+
+.TituloSeguros {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Auto490 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2rem;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.Asegura {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #1E201E;
+}
+
+.Cobertura {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .875rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.ImgSeguros {
+    display: flex;
+    position: relative;
+}
+
+.ImgSeguros img {
+    position: absolute;
+    width: 291.49px;
+    bottom: -50px;
+    left: 30px;
+}
+
+.CardsSeguros {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    width: 100%;
+    height: 187px;
+    gap: 40px;
+}
+
+.CardIndividual {
+    width: 234px;
+    height: 177px;
+    border-radius: 13px;
+    padding: auto;
+    background-color: #DEDEDE;
+    box-shadow: 4px 10px 25px #1E201E;
+}
+
+.CardIndividual h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline ;
+    margin-top: 40px;
+    color: #AE0808;
+}
+
+.CardIndividual p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .75rem;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.Beneficios {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Beneficios h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E201E;
+}
+
+.Beneficios h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: center;
+    color: #1E201E;
+}
+
+.CardsBeneficios {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.BotonAsesor {
+    position: absolute;
+    top: 275px;
+    width: 208px;
+    height: 37px;
+    background-color: #67B764;
+    border-radius: 10px;
+    color: black;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .875rem;
+    font-weight: normal;   
+}
+
+/* Seguros END */
+
+/* Permutas & consignaciones */
+
+.TituloPermutas {
+    text-align: center;
+    margin: 50px;
+}
+
+.TituloPermutas h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E201E;
+}
+
+.TituloPermutas p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .875rem;
+    font-weight: normal;
+    text-align: center;
+    color: #1E201E;
+}
+
+.PadrePermuta {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.CajaPermuta {
+    position: relative;
+    width: 480px;
+    height: 586px;
+    background-color: #DEDEDE;
+    border-radius: 13px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.CajaPermuta h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.CajaPermuta ul {
+    margin-top: 20px;
+}
+
+.CajaPermuta li {
+    list-style: disc;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: bolder;
+    text-align: left;
+    text-decoration: underline;
+    color: #1E201E;
+}
+
+.CajaPermuta p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    color: #1E201E;
+}
+
+.BotonPermutas {
+    position: absolute;
+    bottom: 25px;
+    left: 160px;
+    width: 141px;
+    height: 23px;
+    background-color: #67B764;
+    border-radius: 10px;
+    color: black;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: normal;  
+}
+
+.BotonConsignaciones {
+    position: absolute;
+    bottom: 25px;
+    left: 140px;
+    width: 185px;
+    height: 23px;
+    background-color: #67B764;
+    border-radius: 10px;
+    color: black;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: normal;  
+}
+
+.PermutaImg {
+    display: flex;
+    position: relative;
+}
+
+.ImgPermuta {
+    width: 222px;
+    position: absolute;
+    top: -150px;
+}
+
+/* Permutas & consignaciones END */
+
+/* Atencion Personalizada */
+
+.TituloAtencion h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E201E;
+    margin-top: 30px;   
+}
+
+.TituloAtencion p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .875rem;
+    font-weight: normal;
+    text-align: center;
+    color: #1E201E;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.CajaAtencion {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 480px;
+    height: 463px;
+    background-color: #DEDEDE;
+    border-radius: 13px;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.CajaAtencion h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .9375rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.CajaAtencion ul {
+    margin-top: 20px;
+}
+
+.CajaAtencion li {
+    list-style: disc;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: bolder;
+    text-align: left;
+    text-decoration: underline;
+    color: #1E201E;
+}
+
+.CajaAtencion p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    color: #1E201E;
+}
+
+.CajaAtencion button {
+    position: absolute;
+    top: 410px;
+    left: 135px;
+    width: 208px;
+    height: 23px;
+    font-size: .875rem;
+}
+
+.AutosMercedes {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Mercedes2 img {
+    width: 453.65px;
+    position: absolute;
+    top: 300px;
+}
+
+.AutosMercedes .Mercedes1 img {
+    width: 450.94px;
+    margin-top: 270px;
+    position: absolute;
+    right: 10px;
+}
+
+/* Atencion Personalizada  END */
+
+/* Financiacion */
+
+.TituloFinanciacion h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E201E;
+    margin-top: 30px;
+}
+
+.TituloFinanciacion h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: normal;
+    text-align: center;
+    color: #1E201E;
+    margin: 20px;
+}
+
+.cajaFinanciacion {
+    position: relative;
+    width: 480px;
+    height: 678px;
+    background-color: #DEDEDE;
+    border-radius: 13px;
+    margin: auto;
+    padding: 30px;
+    padding-top: 50px;
+    margin-bottom: 75px;
+}
+
+.cajaFinanciacion h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .875rem;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.cajaFinanciacion ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cajaFinanciacion ul li{
+    list-style: disc;
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: normal;
+    text-align: left;
+    color: #1E201E;
+}
+
+.cajaFinanciacion p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .6875rem;
+    font-weight: normal;
+    text-align: left;
+    color: #1E201E;
+}
+
+.padreFinanciacion {
+    position: relative;
+    justify-content: space-around;
+}
+
+.padreFinanciacion .BotonAsesor {
+    position: absolute;
+    top: 700px;
+    right: 610px;
+}
+
+.padreFinanciacion .imgFinanciacion img {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 250px;
+}
+
+.padreFinanciacion .imgFinanciacion2 img {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 250px;
+}
+
+/* Financiacion END */
+
+/* Contacto */
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    width: 359px;
+    height: 432px;
+    background-color: #DEDEDE;
+    border-radius: 13px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 170px;
+    padding: 30px;
+}
+
+.tituloContacto {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E201E;
+    margin-top: 30px;
+}
+
+.contacto input {
+    height: 22px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contacto textarea {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 131px;
+    min-height: 131px;
+    margin-top: 10px;
+}
+
+.contacto h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .875rem;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.contacto .submit {
+    width: 90px;
+    height: 23px;
+    font-size: .6875rem;
+    background-color: #67B764;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+/* Contacto */
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+
+    .header div img {
+        margin-left: -25px;
+    }
+
+    .header nav ul{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        gap: 10px;
+    }
+
+    .banner {
+        height: 1244px;
+    }
+
+    .opaco {
+        height: 1244px;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .banner h2 {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+    }
+
+    .CajaPadre {
+        width: 500px;
+    }
+
+    .Descripcion {
+        left: 60px;
+    }
+
+    .button1 {
+        width: 230px;
+    }
+    
+    .button2 {
+        width: 180px;
+    }
+    
+    .button3 {
+        width: 250px;
+    }
+    
+    .button4 {
+        width: 130px;
+    }
+    
+    .BotonServicios {
+        font-size: .875rem;
+    }
+
+    footer section {
+        height: 280px;
+    }
+
+    section h2 {
+        font-size: 1.25rem;
+    }
+
+    .DondeEncontrarnos p {
+        top: 70px;
+        font-size: .875rem;
+    }
+
+    .Contacto h2 {
+        top: 120px;
+    }
+
+    .ubicacion iframe {
+        margin-bottom: 150px;
+        width: 500px;
+        height: 350px;
+    }
+
+    .UbicacionCaja .Horario {
+        position: absolute;
+        bottom: -230px;
+        left: 25px;
+    }
+
+    .ContactoPadre {
+        top: 100px;
+    }
+
+    .LogoContacto p {
+        font-size: 1rem;
+    }
+
+    /* Nuestras unidades */
+
+    .conteiner2 {
+        width: 784px;
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+
+    .margin {
+        display: grid;
+        width: 1200px;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 300px;
+        column-gap: 100px;
+    }
+
+    .CajaPadre {
+        width: 200px;
+        height: 400px;
+    }
+
+    .Descripcion {
+        left: -20px;
+        font-size: 1rem;
+    }
+
+    .Filtros {
+        display: flex;
+        position: absolute;
+        left: -80px;
+        }
+
+    /* Nuestras unidades END */
+
+
+
+
+
+}
+
+@media (max-width: 768px){
+
+    .header div img {
+        margin-left: -25px;
+    }
+
+    .header nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        right: -40px;
+    }
+
+    .banner {
+        height: 922px;
+    }
+
+    .opaco {
+        height: 922px;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .button1 {
+        width: 180px;
+    }
+    
+    .button2 {
+        width: 140px;
+    }
+    
+    .button3 {
+        width: 210px;
+    }
+    
+    .button4 {
+        width: 110px;
+    }
+    
+    .BotonServicios {
+        font-size: .75rem;
+    }
+
+    footer section {
+        height: 280px;
+    }
+
+    section h2 {
+        font-size: 1.25rem;
+    }
+
+    .DondeEncontrarnos p {
+        top: 70px;
+        font-size: .750rem;
+    }
+
+    .Contacto h2 {
+        top: 120px;
+    }
+
+    .ubicacion iframe {
+        margin-top: 50px;
+        width: 400px;
+        height: 300px;
+        margin-right: 20px;
+    }
+
+    .UbicacionCaja .Horario {
+        position: absolute;
+        bottom: -180px;
+        left: 25px;
+        font-size: .875rem;
+        margin-bottom: -20px;
+    }
+
+    .ContactoPadre {
+        top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .LogoContacto p {
+        font-size: .875rem;
+    }
+    
+
+        /* Nuestras unidades */
+
+        .conteiner2 {
+            width: 700px;
+            margin-left: 10px;
+            margin-bottom: 50px; 
+        }
+
+        .margin {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(2,1fr);
+            margin-left: 250px;
+            column-gap: 80px;
+        }
+    
+        .CajaPadre {
+            width: 180px;
+            height: 400px;
+        }
+    
+        .Descripcion {
+            left: -20px;
+            font-size: 1rem;
+        }
+    
+        .Filtros {
+            display: flex;
+            position: absolute;
+            left: -10px;
+            }
+    
+        /* Nuestras unidades END */
+}
+
+@media (max-width: 428px) {
+
+    /* Home */
+
+    .header {
+        height: 80px;
+    }
+
+    .header div img {
+        width: 180px;
+        height: 180px;
+        margin-left: -20px;
+    }
+
+    .header nav ul {
+        right: -60px;
+        top: 20px;
+        gap: 10px;
+        padding-right: 55px;
+    } 
+    
+    .header nav ul li a {
+        font-size: .6875rem;
+    }
+
+    .banner {
+        height: 846px;
+    }
+    
+    .opaco {
+        height: 846px;
+    }
+
+    .banner h1 {
+        font-size: 1.875rem;
+    }
+
+    .banner h2 {
+        font-size: 1rem;       
+    }
+
+    .banner p {
+        font-size: .875rem;
+    }
+
+    .TituloPagina {
+        margin-left: 20px;
+    }
+
+    .NuestrosServicios {
+        height: 200px;
+    }
+
+    .NuestrosServicios div {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        align-items: center;
+        
+    }
+
+    .NuestrosServicios h2 {
+        font-size: 1rem;
+        padding: 30px;
+        margin-bottom: -60px;
+    }
+
+    .button1 {
+        width: 171px;
+        height: 17px;
+        
+    }
+    
+    .button2 {
+        width: 135px;
+        height: 17px;
+    }
+    
+    .button3 {
+        width: 190px;
+        height: 17px;
+    }
+    
+    .button4 {
+        width: 116px;
+        height: 17px;
+    }
+    
+    .BotonServicios {
+        font-size: .6875rem;
+    }
+
+    section h2 {
+        font-size: 1.125rem;
+        margin-left: -30px;
+    }
+
+    .DondeEncontrarnos p {
+        top: 70px;
+        font-size: .6875rem;
+        margin-left: -30px;
+    }
+
+    .Contacto h2 {
+        top: 120px;
+        margin-left: -30px;
+    }
+
+    .ubicacion iframe {
+        margin-top: -20px;
+        margin-right: -30px;
+        width: 180px;
+        height: 300px;
+    }
+
+    .UbicacionCaja .Horario {
+        position: absolute;
+        bottom: -180px;
+        left: 25px;
+        font-size: .875rem;
+        margin-bottom: -20px;
+    }
+
+    .ContactoPadre {
+        top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .LogoContacto p {
+        position: absolute;
+        font-size: .6875rem;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .Wpp {
+        width: 12px;
+        height: 12px;
+        margin-right: 10px;
+    }
+    
+    .Gmail {
+        width: 11.77px;
+        height: 11px;
+        margin-right: 10px;
+    }
+    
+    .Tiktok {
+        width: 13.91px;
+        height: 13px;
+        margin-right: 10px;
+    }
+    
+    .Insta {
+        width: 11px;
+        height: 11px;
+        margin-right: 10px;
+    }
+    
+    .Facebook {
+        width: 11.63px;
+        height: 13px;
+        margin-right: 10px;
+    }
+    
+    .ubicacion {
+        position: absolute;
+        right: 50px;
+        top: 50px;
+    }
+
+    .UbicacionCaja .Horario {
+        position: absolute;
+        bottom: -100px;
+        left: 5px;
+        font-size: .55rem;
+        padding: 5px;
+    }
+
+    /* Home END */
+
+    /* Nuestras unidades */
+
+    .conteiner2 {
+        width: 300px;
+        margin-left: 10px;
+        margin-bottom: 50px; 
+    }
+
+    .margin {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 110px;
+        column-gap: 80px;
+    }
+
+    .CajaPadre {
+        width: 180px;
+        height: 400px;
+    }
+
+    .Descripcion {
+        left: -20px;
+        font-size: 1rem;
+    }
+
+    .Filtros {
+        display: none;
+        position: absolute;
+        left: -10px;
+        }
+
+
+}
+
+@media (max-width: 375px) {
+    .header {
+        height: 60px;
+    }
+
+    .header div img {
+        width: 130px;
+        height: 130px;
+        margin-left: -10px;
+    }
+
+    .header nav ul {
+        gap: 0px;
+    }
+
+    .header nav ul li a {
+        font-size: .5875rem;
+    }
+
+    .banner {
+        height: 607px;
+    }
+    
+    .opaco {
+        height: 607px;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner h2 {
+        font-size: .875rem;       
+    }
+
+    .banner p {
+        font-size: .6875rem;
+    }
+
+    .TituloPagina h2 {
+        font-size: 1rem;
+        margin-left: 25px;
+    }
+
+    .ubicacion iframe {
+        margin-top: 50px;
+        margin-right: -35px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .LogoContacto {
+        left: -25px;
+    }
+
+}
