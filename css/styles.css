@@ -425,23 +425,79 @@ footer .footer h3 {
 
 /* Nuestras Unidades y Filtros */
 
-.conteiner2 {
+/* .conteiner2 {
     display: flex;
     position: relative;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1200px;
-    margin-left: 200px;
+    width: 800px;
+    margin-left: 110px;
     margin-bottom: 50px;
-}
+} */
 
 .margin {
     display: grid;
-    position: relative;
-    width: 1200px;
+    position: absolute;
+    top: 100px;
+    width: 950px;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 100px;
+    margin-left: 400px;
     justify-items: center;
+}
+
+.CajaPadre2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 400px;
+}
+
+.CajaHijo1 {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    width: 220px;
+    height: 250px;
+}
+
+.CajaHijo1 p {
+    position: absolute;
+    bottom: 0;
+    right: -15px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.Descripcion2 p {
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #e9e9e9;
+}
+
+.BotonConsulta1 {
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+    width: 258px;
+    height: 37px;
+    background-color: #b13c3c97;
+    border-radius: 10px;
+    color: black;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+main {
+    position: relative;
 }
 
 .Filtros {
@@ -498,6 +554,22 @@ footer .footer h3 {
     margin-bottom: -50px;
 }
 
+footer .footer2 {
+    width: 100%;
+    height: 65px;
+    margin-top: 2800px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer2 h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #e9e9e9;
+    margin-left: 30px;
+}
 /* Nuestras Unidades y Filtros END */
 
 /* Oportunidades */
@@ -1145,7 +1217,7 @@ footer .footer1 h3 {
     }
 
     .Descripcion {
-        left: 60px;
+        left: 110px;
     }
 
     .button1 {
@@ -1209,33 +1281,38 @@ footer .footer1 h3 {
 
     .conteiner2 {
         width: 784px;
-        margin-left: 120px;
+        margin-left: 200px;
         margin-bottom: 50px;
     }
 
     .margin {
         display: grid;
-        width: 1200px;
+        width: 800px;
         grid-template-columns: repeat(2,1fr);
-        margin-left: 300px;
-        column-gap: 100px;
+        margin-left: 50px;
+        column-gap: 0px;
     }
 
-    .CajaPadre {
+    .CajaPadre2 {
         width: 200px;
         height: 400px;
     }
 
-    .Descripcion {
-        left: -20px;
+    .Descripcion1 {
+        left: -40px;
         font-size: 1rem;
     }
 
     .Filtros {
         display: flex;
         position: absolute;
-        left: -80px;
+        left: 0px;
         }
+
+        footer .footer2 {
+            margin-top: 4100px;
+        }
+    
 
     /* Nuestras unidades END */
 
@@ -1251,12 +1328,22 @@ footer .footer1 h3 {
         margin-left: -25px;
     }
 
-    .header nav ul{
+    /* .header nav ul{
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 40px;
         right: -40px;
+    } */
+
+    .header nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        right: -40px;
+        /* flex-wrap: wrap; */
+        /* width: 65%; */
     }
 
     .banner {
@@ -1343,6 +1430,42 @@ footer .footer1 h3 {
 
         /* Nuestras unidades */
 
+        /* .burger {
+            width: 400px;
+            height: 20px;
+            
+        } */
+
+        /* .menu input[type="checkbox"], .menu .fa-bars, .menu .fa-times {
+            position: absolute;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            right: 0;
+            top: 0;
+            width: 48px;
+            height: 48px;
+          }
+
+          .menu .fa-bars, .menu .fa-times {
+            font-size: 48px;
+            pointer-events: none;
+          }
+          
+          .menu input[type="checkbox"] {
+            opacity: 3;
+          }
+
+        ul a {
+            display: none;
+        }
+
+        .menu .burger:checked ~ nav a{
+            display: block;
+        } */
+
+        
+
         .conteiner2 {
             width: 700px;
             margin-left: 10px;
@@ -1351,20 +1474,28 @@ footer .footer1 h3 {
 
         .margin {
             display: grid;
-            width: 100%;
+            width: 500px;
             grid-template-columns: repeat(2,1fr);
-            margin-left: 250px;
-            column-gap: 80px;
+            margin-left: 210px;
+            column-gap: 30px;
         }
     
-        .CajaPadre {
-            width: 180px;
+        .CajaPadre2 {
+            width: 150px;
             height: 400px;
         }
     
-        .Descripcion {
+        .Descripcion2 p {
             left: -20px;
-            font-size: 1rem;
+            font-size: .875rem;
+        }
+
+        .BotonConsulta1 {
+            position: absolute;
+            bottom: 20px;
+            right: -40px;
+            width: 200px;
+            font-size: 1.2rem;
         }
     
         .Filtros {
@@ -1372,6 +1503,10 @@ footer .footer1 h3 {
             position: absolute;
             left: -10px;
             }
+
+        footer .footer2 {
+            margin-top: 4200px;
+        }
     
         /* Nuestras unidades END */
 }
@@ -1560,20 +1695,20 @@ footer .footer1 h3 {
     /* Nuestras unidades */
 
     .conteiner2 {
-        width: 300px;
-        margin-left: 10px;
+        width: 428px;
+        margin-left: 55px;
         margin-bottom: 50px; 
     }
 
     .margin {
         display: grid;
-        width: 100%;
+        width: 300px;
         grid-template-columns: repeat(1,1fr);
-        margin-left: 110px;
-        column-gap: 80px;
+        margin: auto;
+        
     }
 
-    .CajaPadre {
+    .CajaPadre2 {
         width: 180px;
         height: 400px;
     }
@@ -1585,9 +1720,15 @@ footer .footer1 h3 {
 
     .Filtros {
         display: none;
-        position: absolute;
-        left: -10px;
+        /* position: absolute;
+        left: -10px; */
         }
+
+        footer .footer2 {
+            margin-top: 8150px;
+            /* margin-bottom: 0; */
+        }
+    
 
 
 }
